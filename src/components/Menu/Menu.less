@@ -1,0 +1,35 @@
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: grid;
+  padding: 24px 0;
+  cursor: pointer;
+
+  &_active {
+    > .icon {
+      border-color: #fff;
+    }
+  }
+
+  & > span {
+    display: none;
+  }
+
+  &:hover > .icon {
+    border-color: #fff;
+  }
+}
+
+.icon {
+  justify-self: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #888991;
+  transition: border-color ease-in-out 0.2s;
+}

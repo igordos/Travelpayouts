@@ -1,0 +1,100 @@
+.cardList {
+  margin-top: 24px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 300px 300px;
+  padding: 26px 30px 24px;
+  background: #ffffff;
+  border: 1px solid #e2e5ec;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+.detail {
+  padding-right: 25px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 300;
+  line-height: 42px;
+  font-size: 29px;
+  color: #000000;
+
+  & > a {
+    color: #000000;
+    text-decoration: none;
+    transition: color ease-in-out 0.2s;
+
+    &:hover {
+      color: #0085ff;
+    }
+  }
+}
+
+.descr {
+  margin: 5px 0 0;
+  line-height: 22px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+
+.promocode {
+  align-self: flex-end;
+}
+
+.label {
+  display: grid;
+  position: relative;
+  &__title {
+    margin-bottom: 7px;
+    line-height: 16px;
+    font-size: 11px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #7d7d7d;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 17px;
+    right: 15px;
+    width: 14px;
+    height: 16px;
+    background: url(clipboard.svg) no-repeat;
+    background-size: 14px 16px;
+  }
+}
+
+.input {
+  height: 48px;
+  padding: 13px 17px 12px;
+  line-height: 22px;
+  font-size: 15px;
+  color: #262626;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #cfd2d9;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn {
+  align-self: flex-end;
+  height: 48px;
+  margin-left: 8px;
+  background: #0085ff;
+  border: 1px solid #0085ff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  line-height: 28px;
+  font-size: 19px;
+  text-align: center;
+  color: #ffffff;
+}
