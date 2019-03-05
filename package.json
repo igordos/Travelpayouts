@@ -48,7 +48,6 @@
     "class-validator": "^0.9.1",
     "cssnano": "^4.1.10",
     "normalize.css": "^8.0.1",
-    "json2typescript": "^1.2.0",
     "less-plugin-clean-css": "^1.5.1",
     "postcss-import": "^12.0.1",
     "react": "^16.8.3",

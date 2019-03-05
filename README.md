@@ -1,8 +1,12 @@
-# travelpayoutsapp
+## Travelpayouts app
 
-# Install
-Install node v10.14.0, npm v6.4.1
+## Install
+Install nodejs, npm and run "npm install". <br>
 
-# Start project:
-npm install
-npm run serv
+In the project directory, you can run:
+
+### `npm run dev`
+Runs the app in the development mode.
+
+### `npm run prod`
+Builds the app for production to the `dist` folder.
